@@ -17,7 +17,7 @@ let bee;
 let mixer;
 const loader = new GLTFLoader();
 loader.load(
-  "/bee_adventure_time.glb", // Đường dẫn đến tệp GLB/GLTF
+  "./bee_adventure_time.glb", // Đường dẫn đến tệp GLB/GLTF
   function (gltf) {
     // Hàm được gọi khi tải thành công
     bee = gltf.scene; // Truy cập vào cảnh của mô hình
